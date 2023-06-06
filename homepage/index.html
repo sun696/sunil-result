@@ -1,0 +1,478 @@
+<!doctype html>
+
+
+
+
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <!--====== Title ======-->
+    <title>UUCMS - ಸಮಗ್ರ ವಿಶ್ವವಿದ್ಯಾಲಯ ಮತ್ತು ಕಾಲೇಜು ನಿರ್ವಹಣಾ ವ್ಯವಸ್ಥೆ </title>
+
+    <meta name="description" content="The Unified University & College Management System">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--====== Favicon Icon ======-->
+    <link rel="shortcut icon" href="/Content/assets/images/favicon.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+
+
+    <!-- CSS ========================================= -->
+    <!--===== Vendor CSS (Bootstrap & Icon Font) =====-->
+    <!-- <link rel="stylesheet" href="assets/css/plugins/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/plugins/fontawesome.min.css">
+    <link rel="stylesheet" href="assets/css/plugins/default.css"> -->
+    <!--===== Plugins CSS (All Plugins Files) =====-->
+    <!-- <link rel="stylesheet" href="assets/css/plugins/animate.css">
+    <link rel="stylesheet" href="assets/css/plugins/slick.css">
+    <link rel="stylesheet" href="assets/css/plugins/magnific-popup.css"> -->
+    <!--====== Main Style CSS ======-->
+    <!-- <link rel="stylesheet" href="assets/css/style.css"> -->
+    <!--====== Use the minified version files listed below for better performance and remove the files listed above ======-->
+    <link rel="stylesheet" href="/Content/assets/css/vendor/plugins.min.css">
+    <link rel="stylesheet" href="/Content/assets/css/style.min.css">
+
+
+
+    <link href="/Content/assets/aos-master/demo/css/styles.css" rel="stylesheet" />
+
+    <link href="/Content/assets/aos-master/dist/aos.css" rel="stylesheet" />
+    <script src="/Content/assets/aos-master/dist/aos.js"></script>
+    <script src="/Content/assets/aos-master/src/js/aos.js"></script>
+    </style>
+</head>
+
+<body onLoad="myfunction()">
+
+
+
+    <!--====== Header Start ======-->
+    <header class="header-area">
+        <section id="topbar" class="d-lg-block">
+            <div class="clearfix">
+                <div class="contact-info float-left">
+                    <i class="icofont-envelope"></i><a>contact-uucms.helpdesk@gmail.com</a>
+
+                </div>
+                <div class="social-links float-right mr-18">
+
+                    <a class='whiteblack accessibility' href='#' onclick="changeColor()" title='Black and White'>A</a>
+                    <a class='standards accessibility' href='#' onclick="defaultColor()" title='Standard'>A</a>
+                    <button id="decreasetext" class="font-size-btn accessibility">
+                        <span>-</span>
+                    </button>
+                    <button id="resettext" class="font-size-btn accessibility">
+                        <span>A</span>
+                    </button>
+                    <button id="increasetext" class="font-size-btn accessibility">
+                        <span>+</span>
+                    </button>
+
+                    <a class="login text-white ml-2" href="/Login/Index_Eng">Eng </a>
+                </div>
+
+
+
+
+            </div>
+        </section>
+
+
+        <section class="banner">
+            <div class="row">
+                <div class="col-md-3 uucms-logo header-center">
+                    <img src="/Content/assets/images/UUCMS_Logo-01kannada.png" />
+                </div>
+                <div class="col-md-1"></div>
+                <div class="col-md-2  gok-logo header-center">
+                    <img src="/Content/assets/images/assets/images/gok-logo-uucms-kn.png" />
+
+
+                </div>
+
+
+
+        </section>
+
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ಮುಖಪುಟ<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#abt">ನಮ್ಮ ಬಗ್ಗೆ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#mod">ಘಟಕಗಳು</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#uni">ವಿಶ್ವವಿದ್ಯಾಲಯ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Home/ContactUs">ಸಂಪರ್ಕಿಸಿ</a>
+                    </li>
+                </ul>
+
+
+                <a href="/loginpage/login.html" id="LoginView" class="login-button">
+                <button class="navbar-text header-search" 
+                style="color: white; border: none; font-weight: 600;">ಲಾಗಿನ್</button></a>
+
+            </div>
+        </nav>
+
+
+
+
+
+
+
+
+
+
+
+
+    </header>
+
+    <section class="uucms-banner mt-4">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6">
+                    <div data-aos="fade-right" data-aos-duration="2000">
+                        <img src="/Content/assets/images/HeaderRight.png" alt="" class="img-fluid" />
+                    </div>
+                </div>
+                <div class="col-md-6 data-aos=fade-right">
+                    <div data-aos="fade-left" data-aos-duration="2000">
+                        <img src="/Content/assets/images/uumcs-banner.png" alt="uucms-banner" class="img-fluid" />
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!--====== Slider Ends ======-->
+    <!--====== About Start ======-->
+    <section class="about-area" id="abt">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="mt-40 text-center">
+                        <div data-aos="fade-up" data-aos-duration="2000">
+                            <h2 class="about-title">ನಮ್ಮ<span class="orange-color">ಬಗ್ಗೆ</span> </h2>
+
+                            <p class="about-uucms">
+                                ಸಮಗ್ರ ವಿಶ್ವವಿದ್ಯಾಲಯ ಮತ್ತು ಕಾಲೇಜು ನಿರ್ವಹಣಾ ವ್ಯವಸ್ಥೆಯು ಉನ್ನತ ಶಿಕ್ಷಣ ಇಲಾಖೆ ಮತ್ತು ಕರ್ನಾಟಕ ಸರ್ಕಾರದ ಪ್ರಮುಖ ಕಾರ್ಯಕ್ರಮಗಳಲ್ಲಿ ಒಂದಾಗಿದ್ದು ದೇಶದಲ್ಲೇ ಈ ವ್ಯವಸ್ಥೆಯನ್ನು ಬಳಕೆಗೆ ತರುತ್ತಿರುವ ಪ್ರಥಮ ರಾಜ್ಯ ಕರ್ನಾಟಕವಾಗಿದೆ. ಯು.ಯು.ಸಿ.ಎಂ.ಎಸ್ ಎಲ್ಲಾ ವಿಶ್ವವಿದ್ಯಾಲಯಗಳನ್ನು ಮತ್ತು ಕಾಲೇಜುಗಳನ್ನು
+                                ಕ್ರೂಢಿಕರಿಸಿ ಹಾಗೂ ಏಕೀಕರಿಸಿ, ಎಲ್ಲರಿಗೂ ಒಂದೇ ವ್ಯವಸ್ಥೆಯಡಿ ವಿವಿಧ ಮಾಹಿತಿ ಒದಗಿಸುತ್ತದೆ. ಉನ್ನತ ಶಿಕ್ಷಣ ಇಲಾಖೆಯ ರಾಜ್ಯ ಯೋಜನೆ ನಿರ್ವಹಣಾ ಘಟಕವು UUCMS ಅಭಿವೃದ್ಧಿ ಮತ್ತು ಯೋಜನೆಯ ವಿವಿಧ ಹಂತಗಳನ್ನು ಮೇಲ್ವಿಚಾರಣೆ ಮಾಡುತ್ತಿದೆ.
+                            </p>
+
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div data-aos="zoom-in-up" data-aos-duration="2000">
+
+                        <div class="about-image mt-50">
+                            <div class="single-image image-1">
+                                <img src="/Content/assets/images/about/about-1.jpg" alt="">
+                            </div>
+                            <div class="single-image image-2">
+                                <img src="/Content/assets/images/about/about-2.jpg" alt="">
+                            </div>
+                            <div class="single-image image-3">
+                                <img src="/Content/assets/images/about/about-3.jpg" alt="">
+                            </div>
+                            <div class="single-image image-4">
+                                <img src="/Content/assets/images/about/about-4.jpg" alt="">
+                            </div>
+                            <div class="about-icon icon-1">
+                                <img src="/Content/assets/images/about/icon/icon-1.png" alt="">
+                            </div>
+                            <div class="about-icon icon-2">
+                                <img src="/Content/assets/images/about/icon/icon-2.png" alt="">
+                            </div>
+                            <div class="about-icon icon-3">
+                                <img src="/Content/assets/images/about/icon/icon-3.png" alt="">
+                            </div>
+                            <div class="about-icon icon-4">
+                                <img src="/Content/assets/images/about/icon/icon-4.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <!--====== Features Start ======-->
+
+
+    <section class="uucms-features  mt-4" id="mod">
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 col-lg-6 ">
+                    <div data-aos="zoom-in-up" data-aos-duration="2000">
+                        <img class="imgspm1" src="/Content/assets/images/m.svg" width="100%" style="padding:0px 40px;">
+                        <img class="imgspm" src="/Content/assets/images/v.svg" width="100%" style="padding:0px 40px;">
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6">
+                    <div data-aos="fade-up" data-aos-duration="2000">
+
+                        <h2 class="text-center mt-4 uucms-features-heading"><span class="orange-color">ಯುಯುಸಿಎಂಎಸ್ </span> ಘಟಕಗಳು</h2>
+                        <div class="features-text">
+                            <p>ಸಮಗ್ರ ವಿಶ್ವವಿದ್ಯಾಲಯ ಮತ್ತು ಕಾಲೇಜು ನಿರ್ವಹಣಾ ವ್ಯವಸ್ಥೆಯು ಉನ್ನತ ಶಿಕ್ಷಣ ಸಂಸ್ಥೆಗಳ ಕಾರ್ಯವೈಖರಿಗಳನ್ನು ಗಣಕೀಕರಣಗೊಳಿಸುತ್ತದೆ</p>
+                            <p>ವಿದ್ಯಾರ್ಥಿಗಳ ದಾಖಾಲಾತಿಯಿಂದ ಕಲಿಕೆ, ಪರೀಕ್ಷೆಗಳು ಮತ್ತು ಪದವಿ ಪಡೆಯುವ ಎಲ್ಲಾ ಹಂತಗಳ ಕಾರ್ಯವನ್ನು ಯುಯುಸಿಎಂಎಸ್ ನ ಒಂದೇ ವ್ಯವಸ್ಥೆಯೊಳಗೆ ನಿರ್ವಹಿಸಬಹುದು.</p>
+                            <p>ಹಾಗೆಯೆ ಶಿಕ್ಷಕರು ಸಂಸ್ಥೆಗೆ ಸೇರಿದ ದಿನದಿಂದ ಅವರ ಸಂಶೋಧನೆ , ಮೌಲ್ಯಮಾಪನ, ಶೈಕ್ಷಣಿಕ ಕಾರ್ಯಕ್ಷಮತೆ, ಪದೋನ್ನತಿ, ಪಠ್ಯಕ್ರಮ, ಪಾಠ ಯೋಜನೆ, ತರಗತಿ ಮೇಲ್ವಿಚಾರಣೆ, ವಿದ್ಯಾರ್ಥಿಗಳ ಹಾಜರಾತಿ ಇತರೆ ಚಟುವಟಿಕೆಗಳ ಕಾರ್ಯನಿರ್ವಹಣೆಯು UUCMS ವ್ಯವಸ್ಥೆಯ ಅವಿಭಾಜ್ಯ ಅಂಗವಾಗಿದೆ.</p>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+    </section>
+
+
+
+
+
+    <section class="teachers-page" id="uni">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-6 col-100" style="display: none;">
+                    <div data-aos="fade-up" data-aos-duration="3000">
+                        <div class="card mb-3">
+                            <div class="row no-gutters">
+
+                                <div class="col-md-4">
+                                    <img src="/Content/assets/images/teachers/teacher-1.jpg" class="minister-border" alt="teacher">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h6 class="card-title">ಡಾ: ಅಶ್ವಥ್ ನಾರಾಯಣ್ ಸಿ. ಎನ್</h6>
+                                        <p class="card-text minister-text"> ಮಾನ್ಯ ಉನ್ನತ </p>
+                                        <p class="card-text minister-text">ಶಿಕ್ಷಣ ಸಚಿವರು</p>
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-100">
+                    <div data-aos="fade-up" data-aos-duration="3000">
+                        <div class="card mb-3">
+                            <div class="row no-gutters">
+
+                                <div class="col-md-4">
+                                    <img src="/Content/assets/images/teachers/teacher-2.png" class="minister-border" alt="teacher">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h6 class="card-title">ಎಸ್. ಆರ್ ಉಮಾಶಂಕರ್, ಐಎಎಸ್</h6>
+                                        <p class="card-text minister-text">ಹೆಚ್ಚುವರಿ ಮುಖ್ಯ ಕಾರ್ಯದರ್ಶಿ, </p>
+                                        <p class="card-text minister-text"> ಉನ್ನತ ಶಿಕ್ಷಣ ಇಲಾಖೆ</p>
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-100">
+                    <div data-aos="fade-up" data-aos-duration="3000">
+                        <div class="card mb-3">
+                            <div class="row no-gutters">
+
+                                <div class="col-md-4">
+                                    <img src="/Content/assets/images/teachers/teacher-3.jpg" class="minister-border" alt="teacher">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h6 class="card-title">ಶ್ರೀ ಪ್ರದೀಪ್ ಪ್ರಭಾಕರ್, ಐಎಎಸ್</h6>
+                                        <p class="card-text minister-text">ಆಯುಕ್ತರು, ಕಾಲೇಜು ಮತ್ತು ತಾಂತ್ರಿಕ ಶಿಕ್ಷಣ ಇಲಾಖೆ</p>
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!--====== Campus Ends ======-->
+
+    <div class="counter-area-2">
+        <div class="container">
+            <div class="counter-wrapper-2 bg_cover" style="background-image: url(../../Content/assets/images/counter-bg-2.jpg); border-radius: 10px;">
+                <div class="row">
+                    <div class="col-sm-3 col-6 counter-col">
+                        <div class="single-counter mt-30 wow fadeInLeftBig" data-wow-duration="1s" data-wow-delay="0.2s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.2s; animation-name: fadeInLeftBig;">
+                            <span class="counter-count"><span class="count">1521937</span> +</span>
+                            <p>ವಿದ್ಯಾರ್ಥಿಗಳಿಗೆ</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 col-6 counter-col">
+                        <div class="single-counter mt-30 wow fadeInLeftBig" data-wow-duration="1s" data-wow-delay="0.4s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.4s; animation-name: fadeInLeftBig;">
+                            <span class="counter-count"><span class="count">18340</span> +</span>
+                            <p>ಶಿಕ್ಷಕರಿಗೆ</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 col-6 counter-col">
+                        <div class="single-counter mt-30 wow fadeInLeftBig" data-wow-duration="1s" data-wow-delay="0.6s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.6s; animation-name: fadeInLeftBig;">
+                            <span class="counter-count"><span class="count">3800</span> +</span>
+                            <p>ಕಾಲೇಜುಗಳು</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 col-6 counter-col">
+                        <div class="single-counter mt-30 wow fadeInLeftBig" data-wow-duration="1s" data-wow-delay="0.8s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.8s; animation-name: fadeInLeftBig;">
+                            <span class="counter-count"><span class="count">24</span> +</span>
+                            <p>ವಿಶ್ವವಿದ್ಯಾಲಯ</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <section class="event-area">
+        <div class="container">
+            <div class="row align-items-center">
+
+                <div class="col-lg-7">
+                    <div data-aos="fade-up" data-aos-duration="2000">
+                        <div class="mt-40">
+                            <div class="section-title-2">
+                                <h2 class="title"><span class="orange-color">ರಾಜ್ಯದ ಶಿಕ್ಷಣ </span> ನಿರ್ವಹಣಾ ವ್ಯವಸ್ಥೆಯಲ್ಲಿ ಕ್ರಾಂತಿ</h2>
+
+                                <p>
+                                    ಸಮಗ್ರ ವಿಶ್ವವಿದ್ಯಾನಿಲಯ ಮತ್ತು ಕಾಲೇಜು ನಿರ್ವಹಣಾ ವ್ಯವಸ್ಥೆ (UUCMS) ಈ ತಂತ್ರಾಂಶವನ್ನು CSG ಯ ಸಹಯೋಗದಿಂದ ಅಭಿವೃದ್ದಿಪಡಿಸಿ ಉನ್ನತ ಶಿಕ್ಷಣ ಇಲಾಖೆಯು ಅನುಷ್ಠಾನಗೊಳಿಸುತ್ತಿದೆ. ರಾಜ್ಯ ಯೋಜನಾ ನಿರ್ವಹಣಾ ಘಟಕವು UUCMS ಅಭಿವೃದ್ದಿಯೊಂದಿಗೆ ಉನ್ನತ ಶಿಕ್ಷಣದ ಎಲ್ಲಾ ಪಾಲುದಾರರಿಗೆ ನೆರವಾಗುತ್ತದೆ.
+                                </p>
+
+                                <br /><br />
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-5">
+                    <div data-aos="fade-left" data-aos-duration="2000">
+                        <div class="event-image mt-50">
+                            <img src="/Content/assets/images/event-1.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <section id="con" class="footer " style="background-color:#07294d; padding: 1px 0px 1px 0px">
+        <div class="container-fluid">
+            <div class="col-md-12">
+                <div class="disclaimer">
+                    <p class="text-white text-center mt-1" style="font-size:12px;"><span class="disclaimer">Disclaimer: </span>Please note this page also provides links to websites/web pages of Govt. Ministries/Departments/Organisations.The content of these websites are owned by the respective organisations and they
+                        may be contacted for any further information or suggestion</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section id="con" class="footer-tollnumber" style="background-color:#07294d; padding: 1px 0px 1px 0px">
+        <div class="container-fluid">
+            <div class="col-md-12">
+                <div class="disclaimer">
+                    <p class="text-white text-center mt-1" style="font-size:12px;"><span class="disclaimer">Student Help Desk Number :</span>08069261300(10AM-6PM) Lunch Break(1:30PM-2:15PM)</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="copyright-section">
+        <div class="footer-copyright">
+            <div class="container">
+                <div class="copyright text-center">
+                    <p style="font-size:12px;"> ವಿನ್ಯಾಸ ಹಾಗೂ ಅಭಿವೃದ್ಧಿ : ಸೆಂಟರ್ ಫಾರ್ ಸ್ಮಾರ್ಟ್ ಗವರ್ನೆನ್ಸ್(V_ADM_4.10_A1.7_E_0.3)<span style="color:#fff">S1</span></p>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
+    <!--====== Footer Ends ======-->
+    <!--====== BACK TOP TOP PART START ======-->
+    <a href="#" class="back-to-top"><i class="fal fa-chevron-up"></i></a>
+    <!--====== BACK TOP TOP PART ENDS ======-->
+    <!--====== Jquery js ======-->
+    <script src="/Content/assets/js/vendor/jquery-3.6.0.min.js"></script>
+    <script src="/Content/assets/js/vendor/modernizr-3.7.1.min.js"></script>
+
+    <!--====== All Plugins js ======-->
+    <!-- <script src="assets/js/plugins/popper.min.js"></script>
+    <script src="assets/js/plugins/bootstrap.min.js"></script>
+    <script src="assets/js/plugins/slick.min.js"></script>
+    <script src="assets/js/plugins/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/plugins/jquery.appear.min.js"></script>
+    <script src="assets/js/plugins/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/js/plugins/isotope.pkgd.min.js"></script>
+    <script src="assets/js/plugins/wow.min.js"></script>
+    <script src="assets/js/plugins/ajax-contact.js"></script> -->
+    <!--====== Use the minified version files listed below for better performance and remove the files listed above ======-->
+    <script src="/Content/assets/js/plugin.min.js"></script>
+
+    <!--====== Main Activation  js ======-->
+    <script src="/Content/assets/js/main.js"></script>
+
+
+    <script>
+        
+    </script>
+
+    <script>
+        AOS.init();
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html>
